@@ -17,7 +17,6 @@ public class TestBase {
 	
 	public WebDriver startApp() throws IOException
 	{
-		//FileInputStream fis=new FileInputStream("C:\\Users\\user\\eclipse-workspace\\PMCdev\\src\\test\\resources\\globalPropertiesSetUps.properties");
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\globalPropertiesSetUps.properties");
 		Properties prop=new Properties();
 		prop.load(fis);
