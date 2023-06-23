@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T17:32:04 IST" name="Surefire suite" finished-at="2023-06-23T17:34:13 IST" duration-ms="129385">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-23T17:32:04 IST" name="Surefire test" finished-at="2023-06-23T17:34:13 IST" duration-ms="129385">
+      <class name="PMCdev.PMCdev.TestngTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:32:04 IST" name="setUpClass" finished-at="2023-06-23T17:32:04 IST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61c4cebd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:32:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T17:32:17 IST" duration-ms="12143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience for product search in both home and offer page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place the order for vegetables"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:32:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T17:32:57 IST" duration-ms="40539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience for product search in both home and offer page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place the order for vegetables"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:32:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T17:33:48 IST" duration-ms="51013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and place the order for vegetables"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:33:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T17:34:13 IST" duration-ms="24804" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and place the order for vegetables"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [No data] but found [Beetroot]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [No data] but found [Beetroot]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at StepDefinations.OfferPageStepDefinations.Validate_product_name_in_offer_page_matches_with_the_product_name_in_landing_page(OfferPageStepDefinations.java:36)
+at ✽.Validate product name in offer page matches with the product name in landing page(file:///C:/Users/user/eclipse-workspace/PMCdev/src/test/java/Feature/searchItems.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:PMCdev.PMCdev.TestngTestRunner@a9cd3b1]" started-at="2023-06-23T17:34:13 IST" name="tearDownClass" finished-at="2023-06-23T17:34:13 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- PMCdev.PMCdev.TestngTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
